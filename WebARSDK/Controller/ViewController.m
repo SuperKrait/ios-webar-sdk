@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _textField.text = @"https://www.kivicube.com/scenes/KnUpLGBbpOz4qmS3GgKYaX8A7njLesn6";
+    _textField.text = @"https://www.kivicube.com/scenes/v1puLFjbm7bkNpMHvwgdOryO5zzxijJ0";
     
     UITapGestureRecognizer *gesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapMiss)];
     [self.view addGestureRecognizer:gesture];
